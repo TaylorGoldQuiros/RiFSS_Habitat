@@ -1,0 +1,8 @@
+library(ggplot2)
+library(dplyr)
+library(tidyverse)
+library(ggpubr)
+WS <- read.csv(file.choose(),header=TRUE)
+GC <- read.csv(file.choose(),header=TRUE)
+CR <- read.csv(file.choose(),header=TRUE)
+BG <- read.csv(file.choose(),header=TRUE)
